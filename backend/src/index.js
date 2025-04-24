@@ -6,6 +6,8 @@ import cookieParser from 'cookie-parser';
 
 import authRoutes from './routes/auth.route.js';
 
+import messageRoutes from './routes/message.route.js';
+
 import { connectDB } from "./lib/db.js";
 
 dotenv.config()
@@ -19,6 +21,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use("/api/auth", authRoutes);
+app.use("/api/message", messageRoutes);
 
 app.get("/", (req, res) => {
     res.send("API is working 🎉");
