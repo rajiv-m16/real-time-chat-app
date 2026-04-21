@@ -1,4 +1,4 @@
-# ChatNow
+# --ChatNow--
 
 ## 1.0 Project Overview
 ChatNow is a full-stack, real-time messaging application built using the MERN stack. It allows users to create accounts, update their profiles, and engage in real-time text and media conversations with other registered users.
